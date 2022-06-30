@@ -1,0 +1,14 @@
+
+/* CSS Page Adjustments
+1. A page which specify a black border for table and if hover on it, page should change 
+it's colour. */
+
+
+table td,th{
+    border:1px solid rgb(221, 34, 34);
+    width: 100px;
+}
+table tr:hover{  
+    background: #2b09d6;
+    }
+    

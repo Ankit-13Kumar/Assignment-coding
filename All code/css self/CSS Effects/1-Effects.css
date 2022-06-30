@@ -1,0 +1,13 @@
+
+/* CSS Effects
+1. Apply CSS shadow effects like for image box and hover a cursor. */
+
+
+img:hover{
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    box-shadow: 10px 10px 5px #888888;
+  }

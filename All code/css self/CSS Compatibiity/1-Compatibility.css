@@ -1,0 +1,13 @@
+/* CSS Compatibility
+1. Create a table and apply table-layout as fixed and none */
+
+table.a {
+    table-layout: none;
+    width: 180px;  
+  }
+  
+  table.b {
+    table-layout: fixed;
+    width: 1000px;  
+  }
+  

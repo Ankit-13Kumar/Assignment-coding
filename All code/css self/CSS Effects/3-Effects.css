@@ -1,0 +1,22 @@
+/* 3. Add positions to CSS block (static, relative, fixed, absolute and sticky). */
+
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+  }
+  div.relative {
+    position: relative;
+    border: 3px solid #0d7d9c;
+  }
+  div.fixed {
+    position: fixed;
+    border: 3px solid #e3d111;
+  }
+  div.absolute {
+    position: absolute;
+    border: 3px solid #1064cc;
+  }
+  div.sticky {
+    position: sticky;
+    border: 3px solid #ad2138;
+  }

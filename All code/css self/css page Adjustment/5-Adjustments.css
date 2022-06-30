@@ -1,0 +1,14 @@
+/* 5. A page with multiple background images for an webpage or element and define their 
+adjustable sizes.
+Things to know:
+1. Difference between visibility:hidden and display:none?
+2. Difference between inline and block level elements?
+3. What are selectors?
+4. Which property is used to set the line style for the outline? */
+
+article{
+    background-image: url(img_flwr.gif), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }

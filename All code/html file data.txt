@@ -1,0 +1,265 @@
+<hr>part-1</hr>
+<hr></hr>
+<!-- Basics.html
+1. Understand the basics.html which was already created
+2. Develop your own web page basics.html with all the following html tags
+Html, head, title, body
+Heading, Paragraph, Italic, Bold, Anchor, Unordered List, List Item, label,
+Blockquote, Horizontal rule, Image, Division, Span
+3. Navigate within the page to a different section.
+4. Use pseudo classes and elements into your webpage
+Good to know:
+Difference between HTML, HTML5, CSS and JAVA Script
+Difference between span and div-->
+
+<!doctype html5>
+<html><head>
+  <style>
+    footer{
+      text-align:center;
+      padding:4px;
+      background-color:green;
+      color:red;
+
+    }
+  </style>
+  <style>
+    header{
+      text-align:center;
+      padding:7px;
+      background-color:red ;
+      color:blueviolet
+    }
+  </style>
+
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+</style>
+
+<style>
+  table, th, td {
+    border:4px solid blue;
+  }
+  </style>
+
+
+<title>google</title>
+<body>
+<p><b>bold</b></p><br>
+<p><i>italic</i></p><br>
+<P>paragraph</P><br>
+<h1>RAJU1</h1>
+<h3>RAJU3</h3>
+<h5>RAJU5</h5><br>
+<ol> order list</ol>
+<ol>   raj</ol>
+<ol>   kon</ol><br>
+<ul>unorder list </ul>
+<ul>name</ul>
+<ul>will</ul><br>
+<a href="www.google.com"> anchor tag</a></br>
+<l>ist</l>
+<l>vhgff</l>
+<l>ccghd</l></br>
+<label for="first name">first name(label)</label><br></br>
+<blockquote  site="www.google.com">i am ankit blockquote</blockquote><br>
+<hr>i am ankit(horizontal line)</hr><br>
+
+<hr>rajvanshi horizontal</hr></br>
+<span style="color:#1c87c9">span tag</span> <br><br><br><br>
+<img src="https://www.bing.com/th?id=OIP.Blag-F1I9HmWBEf6jGLw5gHaFF&w=301&h=207&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"><br><center><h1>image</h1></center></img>
+<div>my name is ankit (division tag)</div>
+
+<a href="">ar</>
+<div id='division rajvanshi'></div>
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div
+
+<a href="www.google.com">navigate to other</a>
+ pseudo class
+<img src="https://css.sammy-codes.com/images/small-profile.jpeg"><br>
+<hr>part-2</hr>
+<hr></hr>
+<!-- FormElements.html
+1. Design the web page using all the below input attributes
+type =text, password, submit, reset, radio, checkbox, button, 
+2. HTML5 input Types
+type=number, range, color, date, file, time, month, week, email
+3. Apply all of the below input restrictions
+disabled, max, maxlength, min, readonly, required, size, value
+4. Develop a web page using target attribute.
+5. Use I-frames and Marquee in your webpage.
+Good to know:
+1. Try applying as many attributes and restrictions and observe the form behavior
+2. Understand the difference between target:blank and target:self.-->
+<br>
+<br>
+<center>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname" .>
+<br>
+<br>
+<label for="pass">Password:</label>
+<input type="password" id="pass" name="pass" minlength="4" maxlength="12"><br>
+<br>
+<input type="submit" value="submit"><input type="reset"><input type="button" onclick="alert('rajvanshi')" value="click me"><br>
+<input type="radio" id="course" name="course" value="html">
+<level for="course">course1</level><br>
+<input type="radio" id="course" name="course" value="html">
+<level for="course">course1</level><br>
+
+<input type="checkbox" id="technoogy" name="technoogy" value="css">
+<level for="course">course2</level><br>
+<input type="checkbox" id="technoogy" name="technoogy" value="css">
+<level for="course">course2</level><br>
+
+</cente><br><br>
+<center>
+  
+  <input type="range" id="horizontal" name="horizontal" value="far">
+<level for="course">range</level><br><br>
+
+<input type="color" id="design" name="design" value="green" minlength="4" maxlength="12">
+<level for="course">select color</level><br><br>
+
+<input type="number" id="technoogy" name="technoogy" value="css" min="3" max="9">
+<level for="course">up-down</level><br><br>
+
+<input type="file" id="technoogy" name="technoogy" value="css">
+<level for="course">upload</level><br><br>
+
+<input type="date" id="today" name="today" value="timing">
+<level for="course">select</level><br><br>
+
+<input type="email" id="mail" name="mail" value="abc@gmail.com">
+<level for="course"textarea required>.>mail</level><br><br>
+
+<input type="month" id="months" name="months" value="weekend">
+<level for="course">month</level><br><br>
+
+<input type="week" id="month" name="month" value="sat">
+<level for="course">week</level><br><br>
+</center>
+
+
+<form action="/action_page.php">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <input type="submit">
+</form>
+
+<br>
+<a href="www.google.com" target="_blank">"click me google taget"</a><br>
+
+<marquee width="80%" direction="down" height="90px">
+  i am rajvanshi  (maruqee)</marque>
+  <marquee width="75%" direction horizontal="50%" height="70%">
+    i am hardworker</marquee></marquee>
+    <marquee width="40%" direction="up" height="30%">
+      go and fly</marquee>
+      <br>
+      <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example">iframe work</iframe><br>
+
+
+<hr>part-3</hr>
+<hr></hr>
+      <!-- Reference:
+      Semantics.html
+      1. Develop a web page with non-semantic elements <div> and <span>
+      2. Develop a web page with the semantic elements <form>, <table> and <article>
+      3. Use all the HTML5 tags and develop a web page
+      article, aside, figcaption, figure,footer,header, hgroup,mark,nav, section,time
+      Good to know:
+      Difference between span and div
+      Difference between HTML4 and HTML5 for the following tags
+      Header, menu, content, article and footer -->
+<div class="story">
+  <div class="header">
+  <h1>becoming sde creater webpage using div tag<h1>
+ <p> i am cool</p>
+</div></div></center><br>
+
+
+<span style="color:red">
+  <p> <h1><center>span color and tag used</center></h1></p>
+  </span></br>
+<p><h1><center>Making table</center></h1></p>
+  <table style="width:100%">
+<tr>
+  <th>Dehi</th>
+  <th>Haryana</th>
+  <th>Noida</th>
+</tr>
+<tr>
+  <td><center>sw</center></td>
+  <td><center>se</center></td></td>
+  <td><center>asd</center></td></td>
+</tr>
+<tr>
+  <td><center>vlsi</center></td></td>
+  <td><center>cloud</td></td>
+  <td><center>network</td></td>
+</tr>
+
+  </table><br>
+
+
+  <!-- form -->
+
+  <form action="\action.php">
+    <level for="username">username</level>
+    <input type="text" id="username" name="username" value=""><br>
+    <level for="pwd">password</level>
+    <input type="text" id="pwd" name="pwd" value="" minlength="4" maxlength="15">
+    <input type="submit" vlaue="submit"><input type="reset">
+
+    </form>
+
+    <br>
+
+
+
+    <article><p><h1> article tag</h1></p></article>
+    <article><p><h1>going to house</h1></p></article>
+    <article><p><h1>who i am</h1></p></article>
+<br>
+
+
+
+
+<aside>aside is use by me all time in my perspective text display</aside>
+
+<figure>
+<img src="www.google.com" width:100%></img>
+<figcaption> click on 15may,ankit(figure,figcaption)</figcaption>
+</figure>
+<br>
+
+<footer>footer</footer>
+<header>header</header>
+<br>
+
+<hgroup><h1>hgroup used by me heading group</h1></hgroup>
+<mark>mark tag working</mark>
+<nav>nav tag working</nav><br>
+
+<nav>
+<a href="css">css nav</a>|
+<a href="html">html nav</a>|
+<a href="web"> web nav</a>|
+<a href="node">node nav</a>
+</nav>
+
+<br>
+
+<section>section tag used(define section)</section>
+<br>
+
+<time>current time 1 pm (define time)</time
+

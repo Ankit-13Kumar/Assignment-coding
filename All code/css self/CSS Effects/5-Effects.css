@@ -1,0 +1,9 @@
+/* 5. Adding Opacity to a image
+Things to know:
+1. Understand position properties?
+2. What is a box model? */
+
+
+img {
+    opacity: 0.7;
+  }

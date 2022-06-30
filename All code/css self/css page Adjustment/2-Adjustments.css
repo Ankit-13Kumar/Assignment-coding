@@ -1,0 +1,36 @@
+
+/* 2. Apply different visibility by an element (visibility: hidden, visible, collapse) and use 
+different types of display for an element (display: none, inline, block, contents, list-item) */
+
+h2.a {
+    visibility: visible;
+  }
+  
+  h2.b {
+    visibility: hidden;
+  }
+
+  h3.c
+  {
+display:none;
+  }
+
+
+  h4.d
+  {
+    display:inline;
+  }
+  h5.e
+  {
+    display:block;
+  }
+
+  h6.f
+  {
+display:contents;
+  }
+  
+  h7.g
+  {
+display:list-item;
+  }

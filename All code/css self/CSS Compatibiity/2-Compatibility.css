@@ -1,0 +1,3 @@
+/* 2. Create a list and change its list-style-type */
+ol.b {list-style-type: circle; width:100px ;}
+ol.a {list-style-type: square;}

@@ -1,0 +1,10 @@
+/*
+CSS Basics
+1. Add CSS comments in your CSS block.*/
+
+
+/* red border example comments in css*/
+     p{
+         background-color: rgb(204, 44, 44);
+     }
+   

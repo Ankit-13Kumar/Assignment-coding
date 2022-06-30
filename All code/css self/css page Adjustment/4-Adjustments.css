@@ -1,0 +1,12 @@
+
+/* 4. Add padding and margin with different size and understand the difference between 
+them. */
+
+ th, td {
+    padding: 15px;
+  } 
+
+
+  table {
+    border-spacing: 30px;
+  }

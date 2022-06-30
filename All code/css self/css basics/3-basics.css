@@ -1,0 +1,36 @@
+
+/*3. Create a different page with the width, style and color of the 4 border-style(set 
+different borders on each side with different patterns).*/
+
+
+
+
+
+/* <!DOCTYPE html>
+<html>
+<head>
+    <style> */
+dirxn
+{
+border-top-style: solid;
+border-left-style: dotted;
+border-bottom-style: dashed;
+border-right-style: double;
+padding:5px;
+width:350px;
+}
+
+
+/* 
+    </style>
+<title>CSS Border Style</title>
+<!-- Include css file here 
+<link href="jala/3-basics.css" rel="stylesheet">-->
+</head>
+<body>
+<p>
+This is the paragraph with multiple border style
+</p>
+</body>
+</html>
+ */
